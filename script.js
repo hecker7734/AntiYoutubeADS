@@ -20,6 +20,8 @@ function observeAds() {
     observer.observe(document.body, { childList: true, subtree: true });
 }
 
-setTimeout(() => {
+window.addEventListener("load", () => {
+    setTimeout(() => {
         observeAds();
     }, 1000);
+});
