@@ -8,7 +8,6 @@ function skipAd() {
                 if (skipButton) skipButton.click();
             },100)
             logs.push("Skipped YouTube Advertisement");
-            chrome.storage.local.set({ logs });
         }
     } catch (error) {
         logError("skipAd", error);
