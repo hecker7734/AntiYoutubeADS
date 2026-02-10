@@ -1,3 +1,4 @@
+let logs = []
 function skipAd() {
     try {
         const video = document.querySelector(".video-stream.html5-main-video");
