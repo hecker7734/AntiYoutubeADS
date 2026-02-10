@@ -11,7 +11,6 @@ function skipAd() {
             logs.push("Skipped YouTube Advertisement");
         }
     } catch (error) {
-        logError("skipAd", error);
     }
 }
 
